@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwind build src/tailwind.css -o public/css/style.css"
+    "build:css": "tailwind build src/tailwind.css -o public/css/style.css",
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "win-node-env": "^0.4.0"
   }
 }
